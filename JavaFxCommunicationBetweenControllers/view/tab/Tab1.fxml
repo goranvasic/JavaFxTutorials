@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="206.0" prefWidth="226.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.tab.Tab1Controller">
+   <children>
+      <Label fx:id="lbl1" alignment="CENTER" layoutX="37.0" layoutY="46.0" prefHeight="17.0" prefWidth="152.0" text="Default Tab1 text" />
+      <TextField fx:id="txt1" layoutX="26.0" layoutY="78.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button fx:id="btn1Save" layoutX="21.0" layoutY="113.0" mnemonicParsing="false" onAction="#btn1SaveClicked" prefHeight="58.0" prefWidth="81.0" text="Save text" />
+      <Button fx:id="btn1Send" layoutX="105.0" layoutY="113.0" mnemonicParsing="false" onAction="#btn1SendClicked" prefHeight="58.0" prefWidth="101.0" text="Send to Tab2" />
+   </children>
+</AnchorPane>
